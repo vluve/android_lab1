@@ -2,4 +2,16 @@
     <string name="app_name">HelloAndroid</string>
     <string name="detail_activity">Detail Activity</string>
     <string name="our_website">Our website</string>
+    <string name="search_for_your_stuff">Search for your stuff</string>
+    <string name="check_your_cart">Check your cart</string>
+    <string name="we_won_t_respond">We won\'t respond</string>
+    <string name="title_text">Магазин</string>
+    <string name="please_buy_anything_we_beg_you">Please buy anything we beg you</string>
+    <string name="we_sell_this_cheaper_now">We sell this cheaper now</string>
+    <string name="menu_to_click">menu to click</string>
+    <string name="laptops_for_dayz">laptops_for_dayz</string>
+    <string name="plansheti_for_dayz">plansheti_for_dayz</string>
+    <string name="smartphonez_for_dayz">smartphonez_for_dayz</string>
+
+    <string name="wearablez_for_dayz">wearablez_for_dayz</string>
 </resources>
