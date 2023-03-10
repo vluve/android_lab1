@@ -104,6 +104,20 @@
                     android:layout_marginTop="66dp"
                     android:layout_marginStart="32dp"
                     />
+
+                <Button
+                    android:id="@+id/check_hotsales_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="130dp"
+                    android:layout_marginStart="32dp"
+                    android:backgroundTint="@android:color/black"
+                    android:text="@string/know_more"
+                    android:textColor="#ffffff"
+                    app:layout_constraintLeft_toLeftOf="@+id/hello_text"
+                    app:layout_constraintRight_toRightOf="@+id/hello_text"
+                    app:layout_constraintTop_toBottomOf="@+id/hello_text" />
+
             </androidx.cardview.widget.CardView>
 
         <LinearLayout
