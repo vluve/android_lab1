@@ -2,8 +2,12 @@ package com.vluve.helloandroid;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
 
 public class DetailActivity extends AppCompatActivity {
 
@@ -12,6 +16,14 @@ public class DetailActivity extends AppCompatActivity {
         Log.w("DEBUG:", "DetailActivity onCreate() called");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
+
+        ImageView laptopsButton = (ImageView) findViewById(R.id.laptops_button);
+        laptopsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                LaptopsButtonClicked();
+            }
+        });
     }
 
     @Override
@@ -44,4 +56,10 @@ public class DetailActivity extends AppCompatActivity {
         super.onDestroy();
         // The activity is about to be destroyed.
     }
+
+    protected void LaptopsButtonClicked() {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
 }
+
