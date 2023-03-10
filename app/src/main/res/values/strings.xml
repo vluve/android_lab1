@@ -16,4 +16,8 @@
     <string name="wearablez_for_dayz">wearablez_for_dayz</string>
     <string name="discount_30">со скидкой до 30%</string>
     <string name="game_laptops">Игровые ноутбуки</string>
+    <string name="laptop_sign">Ноутбуки</string>
+    <string name="ipad_sign">Планшеты</string>
+    <string name="smartphone_sign">Смартфоны</string>
+    <string name="watch_sign">Часы</string>
 </resources>
