@@ -20,4 +20,9 @@
     <string name="ipad_sign">Планшеты</string>
     <string name="smartphone_sign">Смартфоны</string>
     <string name="watch_sign">Часы</string>
+    <string name="shop">Shop</string>
+    <string name="home">Home</string>
+    <string name="community">Community</string>
+    <string name="profile">Profile</string>
+    <string name="favorite">Favorite</string>
 </resources>
